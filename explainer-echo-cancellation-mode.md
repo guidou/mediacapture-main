@@ -43,7 +43,7 @@ constraintable property to `true` or `false`.
 
 However:
 * Some applications/use cases may be more privacy sensitive than others, and the
-  only acceptable option for them would be removing all user system playoud from
+  only acceptable option for them would be removing all user system playout from
   the microphone, to ensure no privacy-sensitive playout (screen readers,
   system notifications, etc.) is leaking via microphone.
 * In other cases applications may want to remove echo from
