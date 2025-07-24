@@ -71,12 +71,12 @@ mentioned above. The new set of values supported by the echoCancellation
 property is:
 * `false`: echo cancellation is disabled.
 * `"all"`: The user agent must attempt to cancel all audio played out by the
-   system, including audio output from `RTCPeerConnection`s, screen readers and
+   system, including audio output from `RTCPeerConnections`, screen readers and
    system notifications. This value aims to provide a higher level of privacy.
 * `"remote-only"`: The user agent must attempt to cancel only played out audio
-  from incoming `RTCPeerConnection`s.
+  from incoming `RTCPeerConnections`.
 * `true`: The user agent decides what to cancel. It must attempt to cancel at
-   least played out audio from incoming `RTCPeerConnection`s, but it may also
+   least played out audio from incoming `RTCPeerConnections`, but it may also
    cancel other played out audio.
 
 ### Examples
