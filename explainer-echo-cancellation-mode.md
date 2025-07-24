@@ -83,8 +83,6 @@ property is:
 
 * Checking if the user user agent can remove all user system playout  from the
   microphone
-This shows an example of an application that adjust the track width/height to
-the logical resolution when scaling exceeds an applciation-defined constant.
 
 ```js
 const devices = await navigator.mediaDevices.enumerateDevices();
